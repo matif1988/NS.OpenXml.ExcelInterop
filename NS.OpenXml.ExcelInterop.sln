@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS.OpenXml.ExcelInterop", "NS.OpenXml.ExcelInterop\NS.OpenXml.ExcelInterop.csproj", "{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS.OpenXml.ExcelInterop.Sample", "NS.OpenXml.ExcelInterop.Sample\NS.OpenXml.ExcelInterop.Sample.csproj", "{50807D90-F278-41E9-91D5-C9902E984066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50807D90-F278-41E9-91D5-C9902E984066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50807D90-F278-41E9-91D5-C9902E984066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50807D90-F278-41E9-91D5-C9902E984066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50807D90-F278-41E9-91D5-C9902E984066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5071FD98-0BAD-44F0-BCB9-9B97BC74FF63}
+	EndGlobalSection
+EndGlobal
