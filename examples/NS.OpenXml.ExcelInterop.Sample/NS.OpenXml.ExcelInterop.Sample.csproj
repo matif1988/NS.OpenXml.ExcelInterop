@@ -52,7 +52,7 @@
     <None Include="Template\UserList.xlsx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NS.OpenXml.ExcelInterop\NS.OpenXml.ExcelInterop.csproj">
+    <ProjectReference Include="..\..\src\NS.OpenXml.ExcelInterop\NS.OpenXml.ExcelInterop.csproj">
       <Project>{6e5d5eff-8aa4-4320-9c1b-95890119fef0}</Project>
       <Name>NS.OpenXml.ExcelInterop</Name>
     </ProjectReference>
