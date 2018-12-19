@@ -9,17 +9,17 @@ This library supports both **.Net Framework 4.6**.
 Depends on : 
 * [DocumentFormat.OpenXml](https://www.nuget.org/packages/DocumentFormat.OpenXml/)
 
-# Excel Import file :
+# Excel Import file
 Through the ExcelFileReader class, you can import your excel files. You have the possibility to recover the data in formats below:
 * List of a dictionary composed of the name of the column and its value (with the possibility of including / excluding the header of the Excel table).
 * DataTable that includes the columns and rows of the Excel table.
 
-# Excel Export file :
+# Excel Export file
 Through the ExcelFileWriter class, you can export your data to Excel file. This class includes a method called ExportToExcel that takes as input the parameters below:
 * DataTable: Contains the data to export.
 * WorkSheetName (string): Contains the work sheet name.
 * WithFooter (bool): true if the last row is in bold, false otherwise.
 This method returns a MemoryStream containing the excel file.
 
-# Support :
+# Support
 This project is open source, it was developed to make the handling of Excel imports and exports more user-friendly. I thank you in advance for anyone in the community for the possible improvements of the solution as well as the report of possible bugs allowing me and any stakeholder to lead a continuous improvement of this product.
