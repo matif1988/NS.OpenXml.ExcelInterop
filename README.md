@@ -24,5 +24,8 @@ Through the ExcelFileWriter class, you can export your data to Excel file. This 
 * WithFooter (bool): true if the last row is in bold, false otherwise.
 This method returns a MemoryStream containing the excel file.
 
+# If You Have Problems
+If you want to report a problem (bug, behavior, build, distribution, feature request, etc...) with this class library built by this repository, please feel free to post a new issue and I will try to help.
+
 # Support
 This project is open source, it was developed to make the handling of Excel imports and exports more user-friendly. I thank you in advance for anyone in the community for the possible improvements of the solution as well as the report of possible bugs allowing me and any stakeholder to lead a continuous improvement of this product.
