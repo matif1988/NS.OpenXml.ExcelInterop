@@ -1,5 +1,7 @@
 [![Latest version](https://img.shields.io/nuget/v/NS.OpenXml.ExcelInterop.svg)](https://www.nuget.org/packages/NS.OpenXml.ExcelInterop)
-[![NuGet](https://img.shields.io/nuget/dt/NS.OpenXml.ExcelInterop.svg)]()
+[![NuGet](https://img.shields.io/nuget/dt/NS.OpenXml.ExcelInterop.svg)](https://www.nuget.org/packages/NS.OpenXml.ExcelInterop)
+[![master](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)](https://matif.visualstudio.com/Cronos/_build?definitionId=1)
+[![MyGet](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)
 
 # What is NS.OpenXml.ExcelInterop ?
 NS.OpenXml.ExcelInterop is a small .Net library that imports and exports excel file using open xml.
