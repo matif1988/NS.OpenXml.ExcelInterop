@@ -1,6 +1,6 @@
 [![Latest version](https://img.shields.io/nuget/v/NS.OpenXml.ExcelInterop.svg)](https://www.nuget.org/packages/NS.OpenXml.ExcelInterop)
 [![NuGet](https://img.shields.io/nuget/dt/NS.OpenXml.ExcelInterop.svg)](https://www.nuget.org/packages/NS.OpenXml.ExcelInterop)
-[![master](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)](https://matif.visualstudio.com/Cronos/_build?definitionId=1)
+[![master](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)
 [![MyGet](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)
 
 # What is NS.OpenXml.ExcelInterop ?
