@@ -70,9 +70,8 @@ namespace NS.OpenXml.ExcelInterop.Helpers
             string columnName = GetColumnName(cellName);
 
             uint index = 0U;
-            string columnNameUpper = columnName.ToUpper(CultureInfo.InvariantCulture);
+            string columnNameUpper = columnName.ToUpper();
             int length = columnNameUpper.Length;
-
             for (int i = 0; i < length; i++)
             {
                 index += (columnNameUpper[length - i - 1] - 64U) * (uint)Math.Pow(26, i);

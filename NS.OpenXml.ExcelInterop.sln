@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS.OpenXml.ExcelInterop", "src\NS.OpenXml.ExcelInterop\NS.OpenXml.ExcelInterop.csproj", "{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB92689E-E4E4-406A-B916-9F2AC82D6E69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{103B60EF-EF90-4474-A3E6-D7F9D10947FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS.OpenXml.ExcelInterop.Sample", "examples\NS.OpenXml.ExcelInterop.Sample\NS.OpenXml.ExcelInterop.Sample.csproj", "{50807D90-F278-41E9-91D5-C9902E984066}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{28966B3F-4048-4F27-9CD4-857484E68F3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NS.OpenXml.ExcelInterop", "src\NS.OpenXml.ExcelInterop\NS.OpenXml.ExcelInterop.csproj", "{87CD01FD-5946-4D7C-8860-FED14144A774}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NS.OpenXml.ExcelInterop.Sample", "examples\NS.OpenXml.ExcelInterop.Sample\NS.OpenXml.ExcelInterop.Sample.csproj", "{FFBA2B6B-4CDE-406E-9373-3C2D22F44611}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,21 +19,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50807D90-F278-41E9-91D5-C9902E984066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50807D90-F278-41E9-91D5-C9902E984066}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50807D90-F278-41E9-91D5-C9902E984066}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50807D90-F278-41E9-91D5-C9902E984066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CD01FD-5946-4D7C-8860-FED14144A774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CD01FD-5946-4D7C-8860-FED14144A774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CD01FD-5946-4D7C-8860-FED14144A774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CD01FD-5946-4D7C-8860-FED14144A774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBA2B6B-4CDE-406E-9373-3C2D22F44611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBA2B6B-4CDE-406E-9373-3C2D22F44611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBA2B6B-4CDE-406E-9373-3C2D22F44611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBA2B6B-4CDE-406E-9373-3C2D22F44611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6E5D5EFF-8AA4-4320-9C1B-95890119FEF0} = {DB92689E-E4E4-406A-B916-9F2AC82D6E69}
-		{50807D90-F278-41E9-91D5-C9902E984066} = {28966B3F-4048-4F27-9CD4-857484E68F3C}
+		{87CD01FD-5946-4D7C-8860-FED14144A774} = {DB92689E-E4E4-406A-B916-9F2AC82D6E69}
+		{FFBA2B6B-4CDE-406E-9373-3C2D22F44611} = {28966B3F-4048-4F27-9CD4-857484E68F3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5071FD98-0BAD-44F0-BCB9-9B97BC74FF63}

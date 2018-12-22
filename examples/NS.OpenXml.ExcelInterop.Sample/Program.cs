@@ -17,7 +17,7 @@ namespace NS.OpenXml.ExcelInterop.Sample
         static void Main(string[] args)
         {
             // Retrieve project path
-            string projectPath = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\", string.Empty);
+            string projectPath = AppDomain.CurrentDomain.BaseDirectory.Substring(0, AppDomain.CurrentDomain.BaseDirectory.LastIndexOf("bin"));
 
             // Retrieve template document.
             var templatePath = $"{projectPath}\\Template\\UserList.xlsx";
@@ -42,6 +42,9 @@ namespace NS.OpenXml.ExcelInterop.Sample
             streamExport.WriteTo(file);
             file.Close();
             streamExport.Close();
+
+            Console.Write($"Generated file path : {tempFilePath}");
+            Console.ReadLine();
         }
     }
 }
