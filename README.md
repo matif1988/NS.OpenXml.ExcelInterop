@@ -7,18 +7,20 @@
 # Open XML Excel Interop
 The Open XML Excel Interop is a small .Net library that imports and exports excel file using Open XML SDK.
 
-Depends on : 
-* [DocumentFormat.OpenXml](https://www.nuget.org/packages/DocumentFormat.OpenXml/)
-
 Table of Contents
 -----------------
 
+- [Dependencies](#dependencies)
 - [Releases](#releases)
   - [Supported platforms](#supported-platforms)
 - [Excel Import file](#excel-import-file)
 - [Excel Export file](#excel-export-file)
 - [If You Have Problems](#if-you-have-problems)
 - [Support](#support)
+
+Dependencies
+------------
+* [DocumentFormat.OpenXml](https://www.nuget.org/packages/DocumentFormat.OpenXml/)
 
 Releases
 --------------------------------
