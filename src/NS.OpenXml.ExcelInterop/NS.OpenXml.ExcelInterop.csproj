@@ -15,7 +15,6 @@
     <RepositoryUrl></RepositoryUrl>
     <Description>NS.OpenXml.ExcelInterop is a small .Net library that imports and exports excel files using open xml.</Description>
     <Authors>Mohammed ATIF</Authors>
-    <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net46' ">
     <DefineConstants>$(DefineConstants);FEATURE_REFLECTION</DefineConstants>
