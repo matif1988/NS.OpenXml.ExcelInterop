@@ -6,8 +6,8 @@
     <AssemblyName>NS.OpenXml.ExcelInterop</AssemblyName>
     <RootNamespace>NS.OpenXml.ExcelInterop</RootNamespace>
     <PackageId>NS.OpenXml.ExcelInterop</PackageId>
-    <Version Condition=" '$(PACKAGE_VERSION)' == '' ">2.0.0-local</Version>
-    <Version Condition=" '$(PACKAGE_VERSION)' != '' ">2.0.$(PACKAGE_VERSION)</Version>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' == '' ">2.0.0-local</Version>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">2.0.$(BUILD_BUILDNUMBER)</Version>
     <Copyright>Copyright 2018-2019</Copyright>
     <PackageTags>office openxml netcore netstandard html excel interop export import reporting</PackageTags>
     <AssemblyVersion>1.1</AssemblyVersion>
