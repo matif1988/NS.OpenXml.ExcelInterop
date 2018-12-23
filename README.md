@@ -3,6 +3,7 @@
 [![master](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)](https://img.shields.io/azure-devops/build/matif/Cronos/1/master.svg)
 [![MyGet](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)](https://img.shields.io/azure-devops/release/matif/8e0bf57f-834e-410f-8211-93de0614324a/1/1.svg)
 [![Build status](https://matif.visualstudio.com/Cronos/_apis/build/status/NS.OpenXml.ExcelInterop-CI)](https://matif.visualstudio.com/Cronos/_build/latest?definitionId=1)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/matif1988/NS.OpenXml.ExcelInterop/edit/master/LICENSE)
 
 # Open XML Excel Interop
 The Open XML Excel Interop is a small .Net library that imports and exports excel file using Open XML SDK.
